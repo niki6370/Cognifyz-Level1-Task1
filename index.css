@@ -1,0 +1,38 @@
+body{
+   font-family: Arial,sans-serif;
+   padding:0;
+   text-align:center;
+}
+.cognifyz{
+    width:100%;
+    padding:15px;
+     height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5)),
+    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8WaCTjJp_Sr57zQF7oIt1FUAVe2Ee1L_NxA&s')center/cover no-repeat;
+   }
+   .navigation {
+      padding: 30px;
+      background-color: green;
+   }
+   .navigation a{
+      color:white;
+      text-decoration: none;
+      margin:20px;
+      font-weight: bold;
+   }
+   .c-form{
+      margin-top:15px;
+   }
+   .c-form button{
+      background-color: grey;
+      cursor:pointer;
+      border-radius:5px;
+   }
+   .c-form button:hover{
+      background-color: blue;
+   }
+   .c-form input{
+      padding:7px;
+      border:2px solid blue;
+      border-radius: 6px;
+   }
